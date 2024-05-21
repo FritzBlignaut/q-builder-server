@@ -1,0 +1,6 @@
+@TSS.QBuilder.API_HostAddress = http://localhost:5068
+
+GET {{TSS.QBuilder.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
