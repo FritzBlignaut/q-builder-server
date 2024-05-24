@@ -1,4 +1,7 @@
-﻿namespace TSS.QBuilder.API.Extensions
+﻿using TSS.QBuilder.Contracts;
+using TSS.QBuilder.LoggerService;
+
+namespace TSS.QBuilder.API.Extensions
 {
     public static class ServiceExtensions
     {
@@ -21,6 +24,11 @@
             {
                 options.AutomaticAuthentication = false;
             });
+        }
+
+        public static void ConfigureLoggerService(this IServiceCollection services)
+        {
+            services.AddSingleton<ILoggerManager, LoggerManager>();
         }
     }
 }
