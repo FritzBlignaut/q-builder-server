@@ -30,6 +30,9 @@
             "projectReferences": {
               "G:\\PROJECTS\\q-builder-server\\TSS.QBuilder.LoggerService\\TSS.QBuilder.LoggerService.csproj": {
                 "projectPath": "G:\\PROJECTS\\q-builder-server\\TSS.QBuilder.LoggerService\\TSS.QBuilder.LoggerService.csproj"
+              },
+              "G:\\PROJECTS\\q-builder-server\\TSS.QBuilder.Repository\\TSS.QBuilder.Repository.csproj": {
+                "projectPath": "G:\\PROJECTS\\q-builder-server\\TSS.QBuilder.Repository\\TSS.QBuilder.Repository.csproj"
               }
             }
           }
@@ -48,6 +51,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -79,6 +90,66 @@
         "projectPath": "G:\\PROJECTS\\q-builder-server\\TSS.QBuilder.Contracts\\TSS.QBuilder.Contracts.csproj",
         "packagesPath": "C:\\Users\\fritz\\.nuget\\packages\\",
         "outputPath": "G:\\PROJECTS\\q-builder-server\\TSS.QBuilder.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fritz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\PROJECTS\\q-builder-server\\TSS.QBuilder.Entities\\TSS.QBuilder.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\PROJECTS\\q-builder-server\\TSS.QBuilder.Entities\\TSS.QBuilder.Entities.csproj",
+        "projectName": "TSS.QBuilder.Entities",
+        "projectPath": "G:\\PROJECTS\\q-builder-server\\TSS.QBuilder.Entities\\TSS.QBuilder.Entities.csproj",
+        "packagesPath": "C:\\Users\\fritz\\.nuget\\packages\\",
+        "outputPath": "G:\\PROJECTS\\q-builder-server\\TSS.QBuilder.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fritz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -179,6 +250,80 @@
             "NLog.Extensions.Logging": {
               "target": "Package",
               "version": "[5.3.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\PROJECTS\\q-builder-server\\TSS.QBuilder.Repository\\TSS.QBuilder.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\PROJECTS\\q-builder-server\\TSS.QBuilder.Repository\\TSS.QBuilder.Repository.csproj",
+        "projectName": "TSS.QBuilder.Repository",
+        "projectPath": "G:\\PROJECTS\\q-builder-server\\TSS.QBuilder.Repository\\TSS.QBuilder.Repository.csproj",
+        "packagesPath": "C:\\Users\\fritz\\.nuget\\packages\\",
+        "outputPath": "G:\\PROJECTS\\q-builder-server\\TSS.QBuilder.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fritz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "G:\\PROJECTS\\q-builder-server\\TSS.QBuilder.Entities\\TSS.QBuilder.Entities.csproj": {
+                "projectPath": "G:\\PROJECTS\\q-builder-server\\TSS.QBuilder.Entities\\TSS.QBuilder.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.5, )"
             }
           },
           "imports": [
