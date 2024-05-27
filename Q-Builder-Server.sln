@@ -10,11 +10,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSS.QBuilder.Contracts", "TSS.QBuilder.Contracts\TSS.QBuilder.Contracts.csproj", "{45EC0675-14B6-4414-BAB2-21210E21632F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TSS.QBuilder.Contracts", "TSS.QBuilder.Contracts\TSS.QBuilder.Contracts.csproj", "{45EC0675-14B6-4414-BAB2-21210E21632F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSS.QBuilder.LoggerService", "TSS.QBuilder.LoggerService\TSS.QBuilder.LoggerService.csproj", "{7C0641BA-732D-47EC-8A21-6AF244186BE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TSS.QBuilder.LoggerService", "TSS.QBuilder.LoggerService\TSS.QBuilder.LoggerService.csproj", "{7C0641BA-732D-47EC-8A21-6AF244186BE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSS.QBuilder.Entities", "TSS.QBuilder.Entities\TSS.QBuilder.Entities.csproj", "{D4F0E3A6-07C7-4F1A-94AB-1E85EE21F816}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TSS.QBuilder.Entities", "TSS.QBuilder.Entities\TSS.QBuilder.Entities.csproj", "{D4F0E3A6-07C7-4F1A-94AB-1E85EE21F816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSS.QBuilder.Repository", "TSS.QBuilder.Repository\TSS.QBuilder.Repository.csproj", "{28622BB1-BB07-4A66-8D9C-84035656DB10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +40,10 @@ Global
 		{D4F0E3A6-07C7-4F1A-94AB-1E85EE21F816}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4F0E3A6-07C7-4F1A-94AB-1E85EE21F816}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4F0E3A6-07C7-4F1A-94AB-1E85EE21F816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28622BB1-BB07-4A66-8D9C-84035656DB10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28622BB1-BB07-4A66-8D9C-84035656DB10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28622BB1-BB07-4A66-8D9C-84035656DB10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28622BB1-BB07-4A66-8D9C-84035656DB10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

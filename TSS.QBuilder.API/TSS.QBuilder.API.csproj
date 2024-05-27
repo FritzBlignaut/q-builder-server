@@ -7,7 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\TSS.QBuilder.LoggerService\TSS.QBuilder.LoggerService.csproj" />
+    <ProjectReference Include="..\TSS.QBuilder.Repository\TSS.QBuilder.Repository.csproj" />
   </ItemGroup>
 
 </Project>

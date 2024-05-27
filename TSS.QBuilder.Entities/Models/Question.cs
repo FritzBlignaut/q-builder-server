@@ -16,7 +16,8 @@ namespace TSS.QBuilder.Entities.Models
         [MaxLength(255, ErrorMessage = "Question Sub Text cannot be more then 255 characters")]
         public string? QuestionSubText { get; set; }
 
-        [Required(ErrorMessage = "Question Type is required")]
+        [ForeignKey(nameof(ControlType))]
+        public Guid ControlTypeId { get; set; }
         public ControlType? ControlType { get; set; }
 
         [ForeignKey(nameof(QuestionSet))]
