@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("305d7c25-fc2f-4f6e-b41b-1904df0c6d70")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TSS.QBuilder.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57e6b41e7c70fb95c3b341bec4caf82be88cb2ec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7eb6f534785e71ef16bd576bde7bc79ab1ebe02")]
 [assembly: System.Reflection.AssemblyProductAttribute("TSS.QBuilder.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TSS.QBuilder.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
