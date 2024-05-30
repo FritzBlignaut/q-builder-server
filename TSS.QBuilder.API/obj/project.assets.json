@@ -1574,6 +1574,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.5",
+          "TSS.QBuilder.Contracts": "1.0.0",
           "TSS.QBuilder.Entities": "1.0.0"
         },
         "compile": {
@@ -1581,6 +1582,30 @@
         },
         "runtime": {
           "bin/placeholder/TSS.QBuilder.Repository.dll": {}
+        }
+      },
+      "TSS.QBuilder.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "TSS.QBuilder.Contracts": "1.0.0",
+          "TSS.QBuilder.Service.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TSS.QBuilder.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TSS.QBuilder.Service.dll": {}
+        }
+      },
+      "TSS.QBuilder.Service.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/TSS.QBuilder.Service.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TSS.QBuilder.Service.Contracts.dll": {}
         }
       }
     }
@@ -4247,13 +4272,24 @@
       "type": "project",
       "path": "../TSS.QBuilder.Repository/TSS.QBuilder.Repository.csproj",
       "msbuildProject": "../TSS.QBuilder.Repository/TSS.QBuilder.Repository.csproj"
+    },
+    "TSS.QBuilder.Service/1.0.0": {
+      "type": "project",
+      "path": "../TSS.QBuilder.Service/TSS.QBuilder.Service.csproj",
+      "msbuildProject": "../TSS.QBuilder.Service/TSS.QBuilder.Service.csproj"
+    },
+    "TSS.QBuilder.Service.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../TSS.QBuilder.Service.Contracts/TSS.QBuilder.Service.Contracts.csproj",
+      "msbuildProject": "../TSS.QBuilder.Service.Contracts/TSS.QBuilder.Service.Contracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.5",
       "TSS.QBuilder.LoggerService >= 1.0.0",
-      "TSS.QBuilder.Repository >= 1.0.0"
+      "TSS.QBuilder.Repository >= 1.0.0",
+      "TSS.QBuilder.Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4288,6 +4324,9 @@
             },
             "G:\\PROJECTS\\q-builder-server\\TSS.QBuilder.Repository\\TSS.QBuilder.Repository.csproj": {
               "projectPath": "G:\\PROJECTS\\q-builder-server\\TSS.QBuilder.Repository\\TSS.QBuilder.Repository.csproj"
+            },
+            "G:\\PROJECTS\\q-builder-server\\TSS.QBuilder.Service\\TSS.QBuilder.Service.csproj": {
+              "projectPath": "G:\\PROJECTS\\q-builder-server\\TSS.QBuilder.Service\\TSS.QBuilder.Service.csproj"
             }
           }
         }
