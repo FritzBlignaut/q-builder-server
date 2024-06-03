@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using TSS.QBuilder.Entities.Models;
 
 namespace TSS.QBuilder.Contracts
 {
     public interface IQuestionSetRepository
     {
+        IEnumerable<QuestionSet> GetAllQuestionSets(bool trackChanges);
     }
 }

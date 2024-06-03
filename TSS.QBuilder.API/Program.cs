@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.HttpOverrides;
 using NLog;
 using TSS.QBuilder.API.Extensions;
+using TSS.QBuilder.QuestionSet.Presentation;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,7 +14,7 @@ builder.Services.ConfigureRepositoryManager();
 builder.Services.ConfigureServiceManager();
 builder.Services.ConfigureSqlContext(builder.Configuration);
 
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddApplicationPart(typeof(AssemblyReference).Assembly);
 
 var app = builder.Build();
 

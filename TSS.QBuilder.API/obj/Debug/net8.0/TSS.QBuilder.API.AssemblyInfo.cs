@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TSS.QBuilder.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f9b4e0a6f89ea69235c38971ff1745f4776e13e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ebdbefd12456301e8d69cdfb37f9e0ebd7da8178")]
 [assembly: System.Reflection.AssemblyProductAttribute("TSS.QBuilder.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TSS.QBuilder.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

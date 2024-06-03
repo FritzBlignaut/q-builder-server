@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TSS.QBuilder.LoggerService\TSS.QBuilder.LoggerService.csproj" />
+    <ProjectReference Include="..\TSS.QBuilder.QuestionSet.Presentation\TSS.QBuilder.QuestionSet.Presentation.csproj" />
     <ProjectReference Include="..\TSS.QBuilder.Repository\TSS.QBuilder.Repository.csproj" />
     <ProjectReference Include="..\TSS.QBuilder.Service\TSS.QBuilder.Service.csproj" />
   </ItemGroup>
