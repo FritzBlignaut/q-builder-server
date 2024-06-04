@@ -9,5 +9,7 @@ namespace TSS.QBuilder.Repository
         {
             
         }
+
+        public IEnumerable<QuestionSet> GetAllQuestionSets(bool trackChanges) => GetAll(trackChanges).OrderBy(qs => qs.Name).ToList();
     }
 }
