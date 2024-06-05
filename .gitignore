@@ -1,4 +1,8 @@
 .vs
 bin
 obj
-.suo
+*.suo
+*.user
+packages
+/TSS.QBuilder.API/obj/Debug/net8.0/TSS.QBuilder.API.AssemblyInfo.cs
+/TSS.QBuilder.API/obj/Debug/net8.0/TSS.QBuilder.API.AssemblyInfoInputs.cache
